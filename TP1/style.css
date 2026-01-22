@@ -1,0 +1,40 @@
+body {
+    background-color: #272727;
+    margin: 0;
+
+    font-family: Verdana;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 3em;
+}
+
+header{
+    background-color: #3a3a3a;
+    border-bottom: #002CFF 1px solid;
+
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 1em;
+
+    img{
+        height: 2em;
+    }
+}
+
+section{
+    background-color: #1b1818;
+    border-radius: 18px;
+    padding: 2rem;
+}
+
+.blue{border: blue 2px solid;}
+.green{border: green 2px solid;}
+.orange{border: orange 2px solid;}
+.red{border: red 2px solid;}
