@@ -1,0 +1,117 @@
+body {
+    background-color: #272727;
+    margin: 0;
+
+    font-family: Verdana;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 3em;
+}
+
+header {
+    background-color: #3a3a3a;
+    border-bottom: #002CFF 1px solid;
+
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 2em;
+
+    gap: 1em;
+
+    img {
+        height: 2em;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    nav {
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 1.5em;
+    }
+}
+
+main section {
+    background-color: #1b1818;
+    border-radius: 18px;
+    padding: 2rem;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    border: transparent 2px solid;
+}
+
+.blue {
+    border-color: #4b4bff;
+    color: #4b4bff;
+}
+
+.green {
+    border-color: green;
+    color: green;
+}
+
+.orange {
+    border-color: orange;
+    color: orange;
+}
+
+.red {
+    border-color: red;
+    color: red;
+}
+
+#aria_phrase {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #3a3a3a;
+}
+
+th {
+    background-color: #313131;
+}

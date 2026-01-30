@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD2</title>
+    <meta name="description" content="Cette page permet de consulter la température extérieure">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <section>
+            <img src="../assets/logo-etu.svg" alt="logo du site">
+            <h1>TP 2 JavaScript</h1>
+        </section>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="history.html">Historique</a>
+        </nav>
+    </header>
+    <main>
+        <section id="receiver-container">
+            <h2>Température</h2>
+            <p>
+                La tempréature est de : <span id="receiver" aria-live="polite" aria-atomic="true"></span> °C
+            </p>
+            <p id="phrase" role="alert" aria-atomic="true"></p>
+            <p id="aria_phrase" role="alert" aria-atomic="true"></p>
+        </section>
+
+    </main>
+    <script src="generate.js"></script>
+    <script src="history.js"></script>
+    <script src="display.js"></script>
+
+</body>
+
+</html>
